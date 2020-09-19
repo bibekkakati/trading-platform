@@ -1,0 +1,6 @@
+.panel {
+  flex: auto;
+  margin: 20px 0 0 20px;
+  width: 90vw;
+  max-width: 100%;
+}

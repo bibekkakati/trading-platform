@@ -1,0 +1,91 @@
+.instrumentdata {
+  flex: 1.4;
+  padding-left: 4px;
+}
+
+.instrumentdata > .details {
+  font-size: 13px;
+  border-radius: 18px;
+  box-shadow: 4px 4px 8px #e5e5e5, -4px -4px 8px #ffffff;
+  margin-bottom: 10px;
+}
+
+.instrumentdata > .details > .row {
+  display: flex;
+  flex-direction: row;
+  margin: 4px 15px;
+}
+
+.instrumentdata > .details > .row > .block {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 12px;
+  font-family: "nunito sans", sans-serif;
+  font-size: 11px;
+  color: #4b4c52;
+}
+
+.instrumentdata > .details > .row > .block:nth-child(1) {
+  margin-right: 4px;
+  align-items: center;
+}
+.instrumentdata > .details > .row > .block:nth-child(2) {
+  margin-left: 4px;
+  align-items: center;
+}
+.instrumentdata > .details > .row > .block > .key {
+  font-size: 12px;
+  text-align: center;
+  color: #8e91a1;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.instrumentdata > .details > .row > .block > .value {
+  color: #292b3b;
+  font-weight: 600;
+}
+
+.instrumentdata > .details > .row > .block > .lv {
+  padding-right: 5px;
+}
+
+.instrumentdata > .details > .row > .block > .rv {
+  padding-left: 5px;
+}
+
+.instrumentdata > .details > .row > .block > .title {
+  text-align: center;
+  color: #8e91a1;
+  font-weight: 600;
+  font-family: "nunito sans", sans-serif;
+  font-size: 12px;
+}
+
+.instrumentdata > .depth > .row > .lp {
+  height: 22px;
+  margin: 8px 4px 8px 0px;
+  line-height: 0.1px;
+  padding-right: 0;
+  align-items: center;
+}
+
+.instrumentdata > .depth > .row > .rp {
+  height: 22px;
+  margin: 8px 0px 8px 4px;
+  line-height: 0.1px;
+  padding-left: 0;
+  align-items: center;
+}
+
+.instrumentdata > .details > .row > .block > .bid {
+  padding-right: 5px;
+  color: #24a473;
+}
+
+.instrumentdata > .details > .row > .block > .ask {
+  padding-left: 5px;
+  color: #ef404a;
+}

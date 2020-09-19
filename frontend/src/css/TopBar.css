@@ -1,0 +1,128 @@
+.topbar {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 60px;
+}
+
+.title {
+  color: #757781;
+  font-size: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+}
+
+.liveindex {
+  display: flex;
+  flex-direction: row;
+}
+
+.ticker {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 20px;
+  padding: 0 10px;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px #e5e5e5, -4px -4px 8px #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.index {
+  color: #4b4c52;
+  font-weight: 600;
+  font-size: 13.5px;
+  text-align: right;
+  flex: 1;
+  letter-spacing: 0.5px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.tick {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 13.5px;
+  text-align: center;
+  justify-content: center;
+  flex: 1;
+  min-width: 180px;
+  color: #4b4c52;
+}
+.tick > .point {
+  flex: 1;
+  margin-left: 10px;
+  font-weight: 400;
+  text-align: right;
+  letter-spacing: 0.5px;
+}
+.tick > .change {
+  flex: 1;
+  color: #8e91a1;
+  font-size: 11.5px;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+}
+
+.addclient {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #f7f7f7;
+  background-color: #171c3d;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  word-spacing: 1px;
+  padding: 7px 20px 7px 8px;
+  border-radius: 20px;
+  border: 0;
+  box-shadow: 0 8px 16px #2e374d4d, 0 2px 8px #2d364b4d;
+}
+
+.plusicon {
+  font-size: 15px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8e91a1;
+  padding: 0 35px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.profile {
+  width: 28px;
+  height: 28px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 16px #d3d3d3, -5px -5px 16px #fffafa;
+}
+
+.signout {
+  position: absolute;
+  top: 70px;
+  right: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 10px;
+  margin: 0;
+  color: #1d2339;
+  text-align: center;
+  background-color: #f7f7f7;
+  font-family: "Nunito Sans", sans-serif;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px #e2e1e1, -4px -4px 8px #fffafa;
+  cursor: pointer;
+}

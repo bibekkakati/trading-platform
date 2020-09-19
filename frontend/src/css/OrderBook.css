@@ -1,0 +1,235 @@
+.orderbook {
+  width: 99%;
+  font-family: "nunito sans", sans-serif;
+}
+
+.orderbook > .headbar > .ordertypes {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.orderbook > .headbar > .ordertypes > .text {
+  font-weight: 600;
+  font-family: "nunito sans", sans-serif;
+  font-size: 12.5px;
+  letter-spacing: 0.5px;
+  color: #a1a1a5;
+  padding: 3px 0;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+
+.orderbook > .headbar > .ordertypes > .ul {
+  color: #404142;
+}
+
+.pendingorders {
+  font-weight: 600;
+  font-family: "nunito sans", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+.pendingorders > .orderinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10px 0 0;
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 5px;
+}
+.pendingorders > .orderinfoheading {
+  margin: 10px 0;
+  font-weight: 600;
+  font-family: "nunito sans", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #c0c0d4;
+  border-radius: 12px;
+  box-shadow: 4px 4px 8px #e5e5e5, -4px -4px 8px #ffffff;
+}
+
+.pendingorders > .orderinfo > .vals {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 160px;
+  justify-content: center;
+}
+
+.pendingorders > .orderdata > .vals {
+  font-weight: 600;
+  font-family: "nunito sans", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #404142;
+  height: 40px;
+}
+
+.pendingorders > .orderdata > .vals > .pendingicon {
+  font-size: 17px;
+  color: #f0dd35;
+}
+
+.pendingorders > .orderdata > .vals > .completedicon {
+  font-size: 17px;
+  color: #24a473;
+}
+
+.pendingorders > .orderdata > .vals > .rejectedicon {
+  font-size: 18px;
+  color: #ef404a;
+}
+
+.pendingorders > .orderinfo > .vals:nth-child(1) {
+  width: 200px;
+  justify-content: start;
+  margin-left: 10px;
+}
+
+.pendingorders > .orderinfo > .vals:nth-child(2) {
+  width: 50px;
+}
+
+.pendingorders > .orderinfo > .vals:nth-child(3) {
+  width: 50px;
+}
+
+.pendingorders > .orderinfo > .vals:nth-last-child(1) {
+  width: 80px;
+}
+
+.pendingorders > .orderinfo > .vals:nth-last-child(2) {
+  width: 30px;
+}
+
+.pendingorders > .orderinfo > .vals:nth-last-child(4) {
+  width: 100px;
+}
+
+.pendingorders > .orderinfo > .vals:nth-last-child(5) {
+  width: 80px;
+}
+
+.pendingorders > .orderinfo > .vals > .side {
+  border-radius: 50px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.pendingorders > .orderinfo > .vals > .BUY {
+  color: #24a473;
+}
+
+.pendingorders > .orderinfo > .vals > .SELL {
+  color: #ef404a;
+}
+
+.pendingorders > .popup {
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+  display: flex;
+  flex-direction: column;
+  height: 360px;
+  margin-bottom: 30px;
+  width: 300px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  justify-content: center;
+  border-radius: 12px;
+  box-shadow: 6px 6px 12px #e5e5e5, -6px -6px 12px #ffffff;
+  z-index: 100;
+}
+
+.pendingorders > .popup > .price {
+  font-size: 12px;
+  font-family: "nunito sans", sans-serif;
+  letter-spacing: 0.5px;
+  margin-left: 20px;
+  padding-bottom: 5px;
+  color: #888a8b;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.pendingorders > .popup > input {
+  font-family: "nunito sans", sans-serif;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  border: none;
+  margin-top: 15px;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+  box-shadow: -5px -5px 3px #ececec, 5px 5px 3px #ffffff;
+  height: 30px;
+  width: 250px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 2px 5px;
+  color: #534b4e;
+  outline: none;
+}
+
+.pendingorders > .popup > .cancel {
+  border: #ef404a solid 2px;
+  border-radius: 8px;
+  color: #ef404a;
+  text-align: center;
+  height: 35px;
+  font-size: 11.5px;
+  text-transform: uppercase;
+  width: 250px;
+  margin: auto;
+  font-family: "nunito sans", sans-serif;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  background-color: #fff;
+}
+
+.pendingorders > .popup > .modify {
+  border: none;
+  border-radius: 8px;
+  color: #f7f7f7;
+  background-color: #24a473;
+  text-align: center;
+  height: 35px;
+  font-size: 11.5px;
+  text-transform: uppercase;
+  width: 250px;
+  margin: auto;
+  font-family: "nunito sans", sans-serif;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+
+.pendingorders > .popup > .topline {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.pendingorders > .popup > .topline > .closebtn {
+  font-size: 16px;
+  font-weight: bold;
+  color: #bbbdbe;
+  cursor: pointer;
+}
+
+.pendingorders > .popup > .topline > .symbol {
+  font-size: 12.5px;
+  font-weight: bold;
+  color: #9fa1a1;
+}
+
+.pendingorders > .popup > .topline > .BUY {
+  color: #24a473;
+}
+
+.pendingorders > .popup > .topline > .SELL {
+  color: #ef404a;
+}

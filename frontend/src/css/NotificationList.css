@@ -1,0 +1,50 @@
+.notificationlist {
+  position: absolute;
+  top: 10px;
+  height: 95%;
+  width: 340px;
+  border: none;
+  border-radius: 12px;
+  background-color: #f7f7f7;
+  box-shadow: 6px 6px 12px #e5e5e5, -6px -6px 12px #ffffff;
+  z-index: 10;
+  margin: 10px 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  font-family: "nunito sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400px;
+}
+
+.notificationlist > .title {
+  font-weight: 700;
+  margin-left: 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.notificationlist > .notification {
+  position: relative;
+  background-color: #f7f7f7;
+  padding: 0 0 0 20px;
+}
+
+.notificationlist > .notification > .time {
+  font-size: 10px;
+  color: #858484;
+}
+
+.notificationlist > .success {
+  color: #24a473;
+}
+
+.notificationlist > .error {
+  color: #ef404a;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  display: none;
+}

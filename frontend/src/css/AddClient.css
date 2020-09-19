@@ -1,0 +1,136 @@
+.addclientmodal {
+  position: absolute;
+  top: 115px;
+  left: 40vw;
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  height: auto;
+  overflow: hidden;
+  z-index: 100;
+  align-items: center;
+  border-radius: 14px;
+  background: #1d213a;
+  font-size: 13px;
+  font-family: "nunito sans", sans-serif;
+  font-weight: 700;
+  color: #8e91a1;
+}
+
+.addclientmodal > .form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.addclientmodal > .form > .account {
+  display: flex;
+  flex-direction: column;
+}
+
+.addclientmodal > .form > .account > .label {
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.addclientmodal > .form > .account > .input {
+  width: 22vw;
+  margin-bottom: 10px;
+  background: #1d213a;
+  border: 0;
+  padding: 10px;
+  outline: 0;
+  border-radius: 8px;
+  box-shadow: inset 12px 12px 24px #131522, inset -12px -12px 24px #1d1f33;
+  color: #f7f7f7;
+  font-size: 12px;
+  font-family: "nunito sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.addclientmodal > .form > .actionbtn {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.addclientmodal > .form > .actionbtn > .btn {
+  flex: 1;
+  text-align: center;
+  justify-content: center;
+  height: 40px;
+  border: none;
+  font-size: 14px;
+  font-family: "nunito sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 0 29px;
+  border-radius: 8px;
+  background: #1d213a;
+  box-shadow: 8px 8px 24px #111424, -8px -8px 24px #141627;
+}
+
+.addclientmodal > .form > .actionbtn > .login {
+  color: #24a473;
+}
+
+.addclientmodal > .form > .actionbtn > .cancel {
+  color: #ef404a;
+}
+
+.addclientmodal > .form > .error {
+  color: #ef404a;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "nunito sans", sans-serif;
+  text-align: center;
+}
+
+.addclientmodal > .form > .success {
+  color: #24a473;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "nunito sans", sans-serif;
+  text-align: center;
+}
+.addclientmodal > .form > .actionbtn > .btn > .dotloader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.addclientmodal > .form > .actionbtn > .btn > .dotloader > .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  content: ".";
+  margin: 0 3px;
+  background-color: #24a473;
+}
+
+.addclientmodal > .form > .actionbtn > .btn > .dotloader > .dot {
+  text-align: center;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: -moz-transform;
+  -moz-transition-duration: 1s;
+  -webkit-animation-name: grow;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: grow;
+  -moz-animation-duration: 1s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+
+  transition-property: -moz-transform;
+  transition-duration: 1s;
+  animation-name: grow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}

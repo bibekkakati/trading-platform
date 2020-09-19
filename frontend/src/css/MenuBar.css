@@ -1,0 +1,32 @@
+.menubar {
+  display: flex;
+  flex-direction: column;
+  background-color: #1d233b;
+  width: 50px;
+  margin: 20px 40px;
+  border-radius: 20px;
+  align-items: center;
+  box-shadow: 0 14px 28px #2e374d4d, 0 2px 10px #2d364b4d;
+  padding-bottom: 15px;
+}
+
+.icon {
+  display: flex;
+  color: #8e91a1;
+  font-size: 18px;
+  margin: 8px 0 8px 0;
+  padding: 12px 20px 12px 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.user {
+  color: #f7f7f7;
+}
+
+.active {
+  padding: 12px 17px 12px 12px;
+  color: #f7f7f7;
+  background-color: #2d364b8e;
+  border-left: #5966df solid 3px;
+}

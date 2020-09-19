@@ -1,0 +1,88 @@
+.modal {
+  position: absolute;
+  top: 115px;
+  left: 35vw;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  max-height: 60vh;
+  overflow: hidden;
+  z-index: 1000;
+  align-items: center;
+  border-radius: 14px;
+  background: #1d213a;
+}
+
+.modal > .searchbar > .searchbox {
+  width: 28vw;
+  height: 20px;
+  border: none;
+  margin-top: 10px;
+  background-color: #1d213a;
+  padding: 10px 10px 10px 15px;
+  color: #f7f7f7;
+  border-bottom: solid 2px #f7f7f7;
+  margin-bottom: 10px;
+}
+
+.modal > .close {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 28px;
+  color: #48485e;
+}
+
+.modal > .results {
+  width: 30vw;
+  border: none;
+  margin-left: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-color: #22263f;
+  scrollbar-width: thin;
+}
+.modal > .results > .block {
+  align-items: center;
+}
+
+.modal > .results > .block > .symbol > .exchange {
+  margin-right: 8px;
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background-color: #4e4e5e;
+  font-weight: 700;
+  color: #828385;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+.modal > .results > .block {
+  display: flex;
+  font-size: 13px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  padding-right: 25px;
+  font-weight: 600;
+  justify-content: space-between;
+}
+
+.modal > .results > .block > .action {
+  width: 50px;
+  border: solid 1px #fff;
+  padding: 5px 15px;
+  text-align: center;
+}
+
+.modal > .results > .block > .add {
+  color: #24a473;
+}
+.modal > .results > .block > .remove {
+  color: #ef404a;
+}

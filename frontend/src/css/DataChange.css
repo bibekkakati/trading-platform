@@ -1,0 +1,19 @@
+.up {
+  color: #24a473;
+}
+
+.down {
+  color: #ef404a;
+}
+
+[data-change="0"] {
+  color: #4b4c52;
+}
+
+[data-change="1"] {
+  color: #24a473;
+}
+
+[data-change^="-"] {
+  color: #ef404a;
+}

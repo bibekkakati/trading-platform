@@ -1,0 +1,40 @@
+.clientslist {
+  display: flex;
+  flex-direction: column;
+  flex: 0.8;
+  height: 450px;
+  margin-right: 20px;
+  margin-top: 5px;
+  background-color: #f7f7f7;
+  border-radius: 18px;
+  box-shadow: 4px 4px 8px #e5e5e5, -4px -4px 8px #ffffff;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.clientslist > .client {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px;
+  padding: 0 10px;
+  background-color: #f7f7f7;
+  border-radius: 14px;
+  box-shadow: 4px 4px 8px #e5e5e5, -4px -4px 8px #ffffff;
+}
+
+.clientslist > .client > .clientid {
+  color: #4b4c52;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  display: none;
+}

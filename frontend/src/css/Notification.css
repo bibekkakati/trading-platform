@@ -1,0 +1,24 @@
+.notifycard {
+  position: absolute;
+  bottom: 50px;
+  margin-left: -110px;
+  max-width: 280px;
+  z-index: 1000;
+}
+
+.notifycard > .notificationcard {
+  font-family: "nunito sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  color: #f7f7f7;
+}
+
+.notifycard > .success {
+  background-color: #24a473;
+}
+
+.notifycard > .error {
+  background-color: #ef404a;
+}

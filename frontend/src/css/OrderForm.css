@@ -1,0 +1,157 @@
+.form {
+  flex: 1.8;
+  margin-top: 5px;
+}
+
+.orderform {
+  margin: 20px 20px 0 20px;
+  padding: 3px 20px;
+  border-radius: 18px;
+  box-shadow: 4px 4px 8px #e5e5e5, -4px -4px 8px #ffffff;
+}
+
+.orderform .topsection {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 30px; */
+}
+
+.orderform .topsection .title {
+  font-size: 13px;
+  text-align: center;
+  color: #8e91a1;
+}
+
+.orderform .orderside {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.orderform .switch {
+  margin: 0 10px;
+}
+
+.orderform .topsection .buy {
+  color: #24a473;
+}
+
+.orderform .topsection .sell {
+  color: #ef404a;
+}
+
+.form .ticker .index .exch {
+  font-size: 10px;
+  text-align: center;
+  background-color: #eeeeee;
+  color: #8e91a1;
+  padding: 1px 4px;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+
+.orderform > .conditions,
+.orderdetails {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.orderform > .conditions > .box {
+  display: flex;
+  flex-direction: column;
+}
+
+.orderform .label {
+  font-size: 11.5px;
+  text-align: left;
+  color: #8e91a1;
+  font-weight: 400;
+  font-family: "nunito sans", sans-serif;
+}
+
+.orderform > .conditions > .box > .select {
+  font-size: 11px;
+  font-weight: 600;
+  font-family: "nunito sans", sans-serif;
+  color: #534b4e;
+  border: none;
+  height: 30px;
+  margin-top: 10px;
+  background: url(../assets/caret-down.png) no-repeat right transparent;
+  -webkit-appearance: none;
+}
+
+.orderform > .conditions > .box > .select > option {
+  background-color: #1d213a;
+  color: #e5e5e5;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.orderform > .orderdetails > .block > .box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.orderform .input {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+  box-shadow: -5px -5px 3px #ececec, 5px 5px 3px #ffffff;
+  width: 9.5vw;
+  height: 10px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-family: "nunito sans", sans-serif;
+  color: #534b4e;
+  outline: none;
+}
+
+.orderform input[type="text"]:disabled {
+  box-shadow: -1px -1px 5px #faebeb, 1px 1px 5px #faeeee;
+  color: #dbdada;
+}
+
+.orderform > .placeorder > .box {
+  display: flex;
+  flex-direction: column;
+}
+
+.orderform > .placeorder {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-right: 0;
+  margin-top: 22px;
+  width: 10.5vw;
+  height: 35px;
+  border: none;
+  color: #f7f7f7;
+  font-size: 11.5px;
+  font-family: "nunito sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+
+.orderform > .placeorder > .BUY {
+  background-color: #24a473;
+}
+
+.orderform > .placeorder > .SELL {
+  background-color: #ef404a;
+}

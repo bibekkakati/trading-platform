@@ -1,0 +1,93 @@
+.instrumentlist {
+  max-width: 100%;
+}
+
+.controller {
+  display: flex;
+  flex-direction: row;
+}
+
+.controller > .arrow {
+  margin: 4px 10px 4px -2px;
+  color: #8e91a1;
+  font-size: 22px;
+}
+
+.instrumentcards {
+  display: flex;
+  flex-direction: row;
+  padding-left: 6px;
+  padding-top: 2px;
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+
+.instrument {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 240px;
+  height: 100px;
+  min-width: 240px;
+  margin: 15px 20px 20px 0;
+  background: #f7f7f7;
+  border-radius: 18px;
+  box-shadow: 4px 4px 8px #e5e5e5, -4px -4px 8px #ffffff;
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.instrument > .index {
+  position: relative;
+  margin-top: -25px;
+}
+
+.instrument > .exch {
+  position: relative;
+  margin-top: -40px;
+  font-size: 10px;
+  text-align: center;
+  background-color: #eeeeee;
+  color: #8e91a1;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.addScripButton {
+  display: flex;
+  width: 40px;
+  height: 100px;
+  margin: 15px 20px 20px 0;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #535868;
+  border-radius: 18px;
+  box-shadow: 4px 4px 8px #e5e5e5, -4px -4px 8px #ffffff;
+}
+
+.scripaction {
+  visibility: hidden;
+  position: relative;
+  width: 240px;
+  color: #f7f7f7;
+  font-size: 18px;
+  text-align: right;
+}
+
+.scripaction > .removesign {
+  background-color: #ef404a;
+  border-top-right-radius: 18px;
+  padding: 4px 4px 2px 2px;
+}
+
+.scripaction > .removesign:hover {
+  background-color: #f84d56;
+}
+
+.instrument:hover .scripaction {
+  visibility: visible;
+}

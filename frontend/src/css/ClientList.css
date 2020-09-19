@@ -1,0 +1,26 @@
+.clientlist {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  font-weight: 600;
+  font-family: "nunito sans", sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  color: #57585c;
+}
+
+.clientlist > .clientId {
+  padding: 5px 20px;
+  margin: 10px 10px;
+  border-radius: 12px;
+  text-align: center;
+  background-color: #f7f7f7;
+  box-shadow: 4px 4px 8px #e5e5e5, -4px -4px 8px #ffffff;
+  cursor: pointer;
+}
+
+.clientlist > .ac {
+  box-shadow: -2px -3px 3px #e4e3e3, 2px 3px 3px #fcfcfc;
+}
