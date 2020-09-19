@@ -14,4 +14,4 @@ A personalized trading platform helps users to place multiple orders from multip
  - Puppeteer _(To automate login)_
  - Algolia _(For scrip search)_
 
-## [CLICK HERE TO VISIT WEBSITE](http://tradingappnetlify.s3-website.ap-south-1.amazonaws.com/)
+### [CLICK HERE TO VISIT WEBSITE](http://tradingappnetlify.s3-website.ap-south-1.amazonaws.com/)
