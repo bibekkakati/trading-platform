@@ -2,7 +2,7 @@
 import algoliasearch from "algoliasearch";
 const axios = require("axios").default;
 
-const client = algoliasearch("2RSMIQ81PE", "854bfa5ed0d1d25168d9ed4eb80396d0");
+const client = algoliasearch("***", "***");
 const index = client.initIndex("test_trading");
 
 // export const addData = () => {
