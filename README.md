@@ -16,5 +16,11 @@ A personalized trading platform helps users to place multiple orders from multip
 
 [CLICK HERE TO VISIT WEBSITE](http://tradingappnetlify.s3-website.ap-south-1.amazonaws.com/)
 
+
+### Mockup Image
+
 ![Mockup Image 1](/Mockup/TRADINGPLATFORM.jpg)
+* Home Screen Showing Scrip Info
+
 ![Mockup Image 2](/Mockup/TRADINGPLATFORM2.jpg)
+* Home Screen Showing Scrip Addition Form
