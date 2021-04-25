@@ -8,6 +8,7 @@
 
 # testing
 /frontend/coverage
+/frontend/build
 
 # misc
 /frontend/.DS_Store
